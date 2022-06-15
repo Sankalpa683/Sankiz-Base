@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  /*background: #66CCFF;*/
+}
+/*nav bar css starts*/
+
+.nav-bar {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nav-bar .nav-links{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-bar .nav-links a{
+  margin: 0px 10px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 21px;
+  background: #1a73e8;
+  border: none;
+  color:  #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/*navbar css ends*/
+/*landing css starts*/
+.land-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 85vh;
+  align-items: center;
+  padding: 0px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.land-page .landpage-left .left-heading h1{
+  font-size: 35px;
+}
+.land-page .landpage-right .right-background-img img{
+  width: 600px;
+}
+
+@media screen and (max-width: 1308px){
+  .land-page .landpage-right video {
+    display: none;
+  }
+}
+/*landing css ends*/
+/*for-you css starts*/
+.for-you{
+  display: flex;
+  height: 93vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.for-you .for-you-helps, .for-you-protect{
+  /*flex: 1;*/
+  padding: 0px 20px;
+}
+/*for-you css ends*/
+
+/*help page css starts*/
+.help-page{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.help-page img{
+  width: 300px;
+}
+.help-page .help-page-text{
+  text-align: center;
+}
+.help-page .help-page-text h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+/*help page css ends*/
+/*start-page css starts*/
+.start-page{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;*/
+}
+.start-page .start-page-heading-text h1{
+  font-size: 40px;
+  padding: 0px 10px;
+}
+.start-page .start-page-buttons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.start-page .start-page-buttons .create-account-button a{
+  margin: 0px 10px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 21px;
+  background: #1a73e8;
+  border: none;
+  color:  #fff;
+  border-radius: 8px;
+  text-decoration: none;
+} 
+
+/*start-page css ends*/
+/*footer css starts*/
+.footer{
+  height: 10vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  font-size: 18px;
+  font-weight: bold;
+}
+/*footer css ends*/
